@@ -164,8 +164,8 @@ from matplotlib import pyplot as plt
 
 """Now, we pass our client ID and client secret from our Spotify Dev project into an instance of the spotify_client class. Paste in your own within the quotes. To get a your Spotify credentials, visit [here](https://developer.spotify.com/dashboard/login)"""
 
-client_id = "5de0c3326eed4e17a4e2b226fc57a68f"
-client_secret = "8d048e219f934662932b75a2b4027d2c"
+client_id = ""
+client_secret = ""
 
 spotify = SpotifyAPI(client_id, client_secret)
 
