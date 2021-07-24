@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Spotify Sandbox</h1>
 
 <h2>Introduction</h2>
@@ -19,3 +20,6 @@ Correlation between these song attributes for Global Top 50 Tracks:
 
 ![Corr](https://github.com/sellerskyle/spotify-sandbox/blob/main/SpotifyDataPlayground/Screenshots/Corr.PNG)
 
+=======
+# spotify-sandbox
+>>>>>>> parent of 84ab6fc (Update README.md)
