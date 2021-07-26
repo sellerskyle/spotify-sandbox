@@ -8,6 +8,7 @@ This repository is a collection of functions I created for interfacing with Spot
 
 - Spotify Data Playground
 - Spotify User Playground
+- Get User Data
 - Spotify Test Lab
 
 <h2>Spotify Data Playground</h2>
@@ -27,6 +28,9 @@ Correlation between these song attributes for Global Top 50 Tracks:
 Accessing user data has a different authentication flow than requesting generic data, and that's what this notebook dives into. Main functions are to pull your most listened to tracks and artists and save that to a .json file to be used elsewhere. Using this data, it also shows your top genres.
 
 ![Weight](https://github.com/sellerskyle/spotify-sandbox/blob/main/SpotifyUserPlayground/Screenshots/Weight.PNG)
+
+<h2>Get User Data</h2>
+Compiles and simplifies function to get user's top artists and tracks from Spotify User Playground
 
 <h2>Spotify Test Lab</h2>
 A true mixed bag of functions utilizing the Spotify API and data visualization. The most important sections of this notebook are its playback manipulation functions and it's single user constellation to show a user how their top artists are related. This constellation is extended in TwoUserConstellation
