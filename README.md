@@ -41,5 +41,10 @@ A true mixed bag of functions utilizing the Spotify API and data visualization. 
 <h2>Compare User Data</h2>
 Takes 2 user's data extracted from Get User Data and compares their top tracks and artists, with the end goal being to create a shared playlist based on insights found here. It also begins work on what would become Two User Constellation.
 
+<h2>Math Rock Constellation</h2>
+At the time of making these notebooks, I was really into a genre of music called Math Rock, so I did some data manipulation and visualization on some of the artists in the genre, similar to that done in Spotify Test Lab.
+
+[Link to Math Rock Playlist](https://open.spotify.com/playlist/4UOa0bN8hdc3GUcunaaGR1?si=d7ae1500a3f34725)
+
 <h2>Queue Organizer</h2>
 Extends Spotify's base functionality by allowing users to sort their queue based on any of Spotify's exposed data metrics, like danceability or energy.
