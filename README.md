@@ -6,11 +6,26 @@ This repository is a collection of functions I created for interfacing with Spot
 
 <h2>Table of Contents</h2>
 
+- Two User Constellation
+- Queue Organizer
 - Spotify Data Playground
 - Spotify User Playground
 - Get User Data
 - Spotify Test Lab
-- Queue Organizer
+- Math Rock Constellation
+
+
+<h2>Two User Constellation</h2>
+The pièce de résistance of this repository. It takes a user's data on their top artists and tracks extracted in Get User Data and creates a constellation visualizing how their music tastes intersect. Blue is for user 1, red is for user 2, and purple is for shared interests. The size of each node relates to how much either or both users like that artist.   
+    
+     
+As seen in the below example, an indie rock constellation is created from artists enjoyed by only user 1 (blue), only user 2 (red), and both users shared interests(purple). Based on this, this would be a good starting place for a shared playlist.
+
+![TwoUserConst](https://github.com/sellerskyle/spotify-sandbox/blob/main/TwoUserConstellation/Screenshots/TwoUserConst.PNG)
+
+<h2>Queue Organizer</h2>
+Extends Spotify's base functionality by allowing users to sort their queue based on any of Spotify's exposed data metrics, like danceability or energy.
+
 
 <h2>Spotify Data Playground</h2>
 My first attempt at accessing the Spotify API and playing with some data. Contains basic data manipulation and visualization, like those shown below.
@@ -46,5 +61,5 @@ At the time of making these notebooks, I was really into a genre of music called
 
 [Link to Math Rock Playlist](https://open.spotify.com/playlist/4UOa0bN8hdc3GUcunaaGR1?si=d7ae1500a3f34725)
 
-<h2>Queue Organizer</h2>
-Extends Spotify's base functionality by allowing users to sort their queue based on any of Spotify's exposed data metrics, like danceability or energy.
+![MathRock](https://github.com/sellerskyle/spotify-sandbox/blob/main/MathRockConstellation/Screenshots/MathRock.PNG)
+
