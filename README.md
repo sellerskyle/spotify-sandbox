@@ -10,6 +10,7 @@ This repository is a collection of functions I created for interfacing with Spot
 - Spotify User Playground
 - Get User Data
 - Spotify Test Lab
+- Queue Organizer
 
 <h2>Spotify Data Playground</h2>
 My first attempt at accessing the Spotify API and playing with some data. Contains basic data manipulation and visualization, like those shown below.
@@ -36,3 +37,6 @@ Compiles and simplifies function to get user's top artists and tracks from Spoti
 A true mixed bag of functions utilizing the Spotify API and data visualization. The most important sections of this notebook are its playback manipulation functions and it's single user constellation to show a user how their top artists are related. This constellation is extended in TwoUserConstellation
 
 ![OneUserConstellation](https://github.com/sellerskyle/spotify-sandbox/blob/main/SpotifyTestLab/Screenshots/OneUserConstellation.PNG)
+
+<h2>Queue Organizer</h2>
+Extends Spotify's base functionality by allowing users to sort their queue based on any of Spotify's exposed data metrics, like danceability or energy.
